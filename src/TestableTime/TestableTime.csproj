@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>eladaus.TestableTime</Title>
+    <Authors>Dale Holborow</Authors>
+    <Company>eladaus Oy</Company>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageId>eladaus.$(AssemblyName)</PackageId>
+    <Description>Async-capable Ambient Context Pattern for unit/integration testable DateTimes in C# .NET.</Description>
+    <PackageProjectUrl>https://github.com/eladaus/TestableTime</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/eladaus/TestableTime</RepositoryUrl>
+    <PackageTags>DateTime;unit test;mock;mocking;mockable;unit</PackageTags>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
